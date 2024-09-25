@@ -30,7 +30,7 @@ namespace BestStoreMVC.Services
             }
             catch (Exception e)
             {
-				
+				///
 				Console.WriteLine("Email Sender Failure: \n" + e.Message);
             }
         }
